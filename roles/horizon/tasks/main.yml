@@ -44,7 +44,7 @@
           'enable_fip_topology_check': False,
       }
 
-      TIME_ZONE = "PST"
+      TIME_ZONE = "UTC"
   notify: Reload Apache to apply configuration changes
 
 - name: Add WSGIApplicationGroup directive to openstack-dashboard.conf

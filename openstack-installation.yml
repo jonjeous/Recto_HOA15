@@ -5,6 +5,6 @@
 
   roles:
     - base
-    - neutron
-    - horizon
+    #- neutron
+    #- horizon
     - cinder
